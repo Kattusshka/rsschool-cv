@@ -5,10 +5,123 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>My resume</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+
+  <header>
+    <div class="my-photo">
+      <img class="image" src="image-projects/avatar.jpg" alt="my-photo">
+    </div>
+    <div class="about-me">
+      <h2>RS-School, Front-End Developer</h2>
+      <h1>Kateryna Zinchenko</h1>
+      <p class="about">I am 29 years old and I am radiology technologist, but now I'm studying to be a front-end
+        developer.</p>
+    </div>
+  </header>
+
+  <!-- main-container -->
+  <main class="main-container">
+
+    <!-- sidebar -->
+    <aside class="sidebar-section">
+
+      <div class="sidebar">
+        <h4>My Contacts:</h4>
+        <div class="contacts">
+          <ul>
+            <li class="sidebar-list">Location: Kharkiv, Ukraine;</li>
+            <li class="sidebar-list">Phone: +380963488732;</li>
+            <li class="sidebar-list">e-mail: ekaterinazinchenko0706@gmail.com;</li>
+            <li class="sidebar-list">GitHub: https://github.com/Kattusshka;</li>
+            <li class="sidebar-list">Nickname Discord: Kattusshka;</li>
+          </ul>
+        </div>
+
+        <div class="skills">
+          <h4>My Skills:</h4>
+          <ul>
+            <li class="sidebar-list">HTML</li>
+            <li class="sidebar-list">CSS</li>
+            <li class="sidebar-list">JavaScript (basic)</li>
+            <li class="sidebar-list">Git</li>
+            <li class="sidebar-list">WebPack (basic)</li>
+          </ul>
+        </div>
+
+        <div class="languages">
+          <h4>Languages:</h4>
+          <ul>
+            <li class="sidebar-list">Ukrainian - native speaker</li>
+            <li class="sidebar-list">Russian - native speaker</li>
+            <li class="sidebar-list">English - B1</li>
+          </ul>
+        </div>
+
+        <div class="code-example">
+          <h4>Code Example:</h4>
+
+          <p class="my-code">function sum(a, b) { <br>
+            return a + b;<br>
+            }<br>
+
+            let result = sum(1, 2);<br>
+            alert( result );</p>
+        </div>
+      </div>
+    </aside>
+
+    <!-- main-section -->
+    <div class="main-section">
+
+      <!-- my-experience -->
+      <div class="my-experience">
+        <h4>Education:</h4>
+        <ul>
+          <li class="ed-list">SkillUp Ukraine, Front-end developer (02.2021 - 09.2021 yy);</li>
+          <li class="ed-list">RS School (12.2021 until now);</li>
+        </ul>
+
+      </div>
+
+      <!-- my-project -->
+      <div class="my-project">
+        <h4>Projects:</h4>
+
+        <ol>
+          <li class="projects-item">
+            <a href="https://kattusshka.github.io/grid-template/">Grid................</a>
+            <img class="project-image" src="image-projects/grid.png" alt="grid-project">
+          </li>
+          <li class="projects-item">
+            <a href="https://kattusshka.github.io/kinozal_0506/">Bootstrap.........</a>
+            <img class="project-image" src="image-projects/kinozal.png" alt="bootstrap-project">
+          </li>
+          <li class="projects-item">
+            <a href="https://kattusshka.github.io/js-slider-wg/">JavaScript........</a>
+            <img class="project-image" src="image-projects/slider.png" alt="JavaScript-project">
+          </li>
+        </ol>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-item">
+      <a class="footer-link" href="https://rs.school/js/">
+        <img src="https://rs.school/images/rs_school_js.svg" alt="rs-logo" class="footer-img-logo">
+      </a>
+      <p class="footer-repo">https://github.com/Kattusshka, 2021 y.</p>
+    </div>
+  </footer>
 
 </body>
 
