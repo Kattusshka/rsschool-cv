@@ -1,8 +1,90 @@
-body {
+* {
   font-family: "Source Serif Pro", serif;
-  background-color: beige;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #a5d2f2;
+}
+
+header {
+  display: flex;
+  height: 400px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.my-photo {
+  width: 30%;
+}
+
+.image {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+}
+
+.about-me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 70%;
+
+  color: #dcebf5;
+  background-color: #06385c;
+}
+
+.about {
+  color: #4a90c2;
+  font-size: 20px;
+  margin: 20px;
+  text-align: center;
+}
+
+h1,
+h2 {
+  margin: 0px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+.main-container {
+  display: flex;
+  margin-left: 20px;
 }
 
 aside {
-  position: absolute;
+  width: 30%;
+  background-color: #06385c;
+}
+
+.sidebar-section {
+  padding: 40px 20px;
+  color: #dcebf5;
+  word-wrap: break-word;
+}
+
+h4 {
+  font-size: 30px;
+  color: #4a90c2;
+}
+
+.sidebar-list {
+  margin: 10px;
+  font-size: 20px;
+}
+
+.my-code {
+  font-size: 20px;
+  margin-left: 40px;
+}
+
+.main-section {
+  background-color: yellow;
+  width: 70%;
+  padding: 40px 20px;
 }
