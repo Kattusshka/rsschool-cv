@@ -1,1 +1,8 @@
-font-family: "Source Serif Pro", serif;
+body {
+  font-family: "Source Serif Pro", serif;
+  background-color: beige;
+}
+
+aside {
+  position: absolute;
+}
