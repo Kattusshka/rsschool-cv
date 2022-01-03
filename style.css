@@ -84,7 +84,31 @@ h4 {
 }
 
 .main-section {
-  background-color: yellow;
+  background-image: url(image-projects/wall-612926.jpg);
   width: 70%;
   padding: 40px 20px;
+}
+
+.ed-list {
+  margin: 10px;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.projects-item {
+  margin: 10px;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+a {
+  color: black;
+}
+a:hover {
+  color: #3444d9;
+}
+
+.project-image {
+  width: 400px;
+  height: 400px;
 }
