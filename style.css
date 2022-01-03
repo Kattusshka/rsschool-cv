@@ -112,3 +112,21 @@ a:hover {
   width: 400px;
   height: 400px;
 }
+
+footer {
+  background-color: #06385c;
+  margin-left: 20px;
+}
+.footer-img-logo {
+  height: 200px;
+  display: block;
+  margin: auto;
+  padding-top: 10px;
+}
+
+.footer-repo {
+  font-size: 30px;
+  font-style: italic;
+  text-align: center;
+  padding-bottom: 10px;
+}
